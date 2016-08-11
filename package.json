@@ -41,5 +41,12 @@
     "eslint-plugin-import": "^2.2.0",
     "mocha": "^3.2.0",
     "supertest": "^3.0.0"
+  },
+  "deploy": {
+    "target": "debian",
+    "node": "4.4.6",
+    "dependencies": {
+      "_all": []
+    }
   }
 }
