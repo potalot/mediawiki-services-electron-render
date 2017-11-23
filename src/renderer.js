@@ -155,6 +155,10 @@ exports.createWindow = function createWindow() {
       allowDisplayingInsecureContent: true, // Show http content on https site
       allowRunningInsecureContent: true, // Run JS, CSS from http urls
       nodeIntegration: false, // Disable exposing of Node.js symbols to DOM
+      defaultFontFamily: {
+        standard: 'Charter',
+        serif: 'Charter'
+      }
     },
   });
 
